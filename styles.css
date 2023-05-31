@@ -1,0 +1,173 @@
+
+  body {
+    font-family: "Castoro Titlings";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .color {
+    /* background-color: #e9f1fa; */
+    width: 100%;
+  }
+  .color-2 {
+    background-color: #00abe4;
+
+    width: 300px;
+  }
+  h1 {
+    /* text-align: center; */
+    font-size: 2.2vw;
+
+    color: #1b511a;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+
+    height: 4em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .flex-pro {
+    flex: 0.3;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  li {
+    display: inline;
+    margin-right: 1.3rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.4em;
+    color: #00abe4;
+    background-color: #e9f1fa;
+    margin-bottom: 2rem;
+  }
+  .profile-pict {
+    width: 33%;
+    height: 90%;
+    margin-right: 5rem;
+  }
+  .arbre {
+    width: 20%;
+    height: 88%;
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+
+  .paraph {
+    font-size: 1.8vw;
+    line-height: 1.8;
+    width: 35%; class="title"
+    text-align: center;
+  }
+
+  a {
+    color: #00abe4;
+    text-decoration: none;
+  }
+  .main-page {
+    /* position: relative; */
+    padding: 1em;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 75vh;
+    display: flex;
+    -ms-flex-align: strech;
+  }
+  #scolaire {
+    background-color: #1b511d;
+    color: #e9f1fa;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 15px;
+    grid-template-rows: auto;
+  }
+  #exp-pro{
+    background-color: #00abe4;
+    color:#e9f1fa;
+    font-size: 3vw;;
+  }
+  #loisirs {
+    background-image: url(guitar-playin.jpg);
+    background-size: contain;
+    height: 450px;
+    padding:50px;
+    padding-top:150px;
+  }
+  #loisirs > ul {
+    display:grid;
+    font-size:3.5vw;
+    grid-template-columns:  1fr 1fr;
+    color:#1b511d
+
+  }
+  .guitar{
+    grid-row: 2/2;
+  }
+  #competences > ul {
+    color: #00abe4;
+    font-size: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+@media screen and (max-width: 680px) {
+  body {
+    font-family: "Castoro Titlings";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+  header {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-bottom: 5rem;
+  }
+  .profile-pict {
+    width: 75%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .arbre {
+    width: 80%;
+    height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .paraph {
+    font-size: 3vw;
+    line-height: 1.8;
+    width: 85%;
+    text-align: center;
+  }
+  #scolaire {
+    margin-top: 10rem;
+    color: #e9f1fa;
+  }
+  .title {
+    font-size: 5vw;
+  }
+}
